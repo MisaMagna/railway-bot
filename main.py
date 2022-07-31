@@ -21,6 +21,10 @@ async def ping(ctx):
 async def pong(ctx):
     await ctx.send("ping")
 
+@bot.command()
+async def lechuga(ctx):
+    await ctx.send("Es un perturbado")
+
 
 if __name__ == "__main__":
     bot.run(TOKEN)
