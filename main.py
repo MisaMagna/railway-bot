@@ -14,16 +14,20 @@ async def on_ready():
 
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send("pong")
+async def samurai(ctx):
+    await ctx.send("Doges together, samurai forever!")
+
 
 @bot.command()
-async def pong(ctx):
-    await ctx.send("ping")
+async def attack(ctx):
+    await ctx.send("Doge's art: Bonk!")
+
 
 @bot.command()
-async def lechuga(ctx):
-    await ctx.send("Es un perturbado")
+async def nya(ctx):
+    await ctx.send("Silence wench!")
+    await ctx.send("I don't want to be horny anymore")
+    await ctx.send("I just want to be happy~")
 
 
 if __name__ == "__main__":
